@@ -1,0 +1,98 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sprites/background quadre Dalí - JOC CONJUNT parallax.png" type="Texture" id=1]
+
+[node name="BackgroundAmbParallax" type="Node"]
+
+[node name="BackgroundFrame" type="Node2D" parent="."]
+
+[node name="ParallaxBackground5" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground5"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground5/ParallaxLayer"]
+position = Vector2( 0, -760 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground8" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground8"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground8/ParallaxLayer"]
+position = Vector2( -1376, -760 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground6" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground6"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground6/ParallaxLayer"]
+position = Vector2( 1374.07, -752 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground/ParallaxLayer"]
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground7" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground7"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground7/ParallaxLayer"]
+position = Vector2( -1376, 4.76837e-07 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground2"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground2/ParallaxLayer"]
+position = Vector2( 1374.07, 0 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground3" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground3"]
+visible = false
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground3/ParallaxLayer"]
+visible = false
+position = Vector2( 820.179, 616 )
+scale = Vector2( 0.19244, 0.19244 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground4" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground4"]
+visible = false
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground4/ParallaxLayer"]
+visible = false
+position = Vector2( 0, 616 )
+scale = Vector2( 0.19244, 0.19244 )
+texture = ExtResource( 1 )
+centered = false
