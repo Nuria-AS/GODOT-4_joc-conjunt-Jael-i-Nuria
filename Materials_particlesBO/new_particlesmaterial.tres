@@ -1,0 +1,13 @@
+[gd_resource type="ParticlesMaterial" format=2]
+
+[resource]
+flag_disable_z = true
+direction = Vector3( -100, 0, 0 )
+spread = 100.0
+gravity = Vector3( 0, 40, 0 )
+initial_velocity = 3.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 16.09
+linear_accel_random = 0.36
+scale = 0.09
