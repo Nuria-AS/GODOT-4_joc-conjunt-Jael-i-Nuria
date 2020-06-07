@@ -39,6 +39,17 @@ scale = Vector2( 0.322399, 0.322399 )
 texture = ExtResource( 1 )
 centered = false
 
+[node name="ParallaxBackground10" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground10"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground10/ParallaxLayer"]
+position = Vector2( 2748.13, -752 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="BackgroundFrame"]
 scroll_base_scale = Vector2( 2, 2 )
 
@@ -67,6 +78,61 @@ scroll_base_scale = Vector2( 2, 2 )
 
 [node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground2/ParallaxLayer"]
 position = Vector2( 1374.07, 0 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground9" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground9"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground9/ParallaxLayer"]
+position = Vector2( 2752, 8 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground14" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground14"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground14/ParallaxLayer"]
+position = Vector2( -4.76837e-07, 1032 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground13" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground13"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground13/ParallaxLayer"]
+position = Vector2( -1376, 1032 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground12" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground12"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground12/ParallaxLayer"]
+position = Vector2( 1374.06, 1032 )
+scale = Vector2( 0.322399, 0.322399 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="ParallaxBackground11" type="ParallaxBackground" parent="BackgroundFrame"]
+scroll_base_scale = Vector2( 2, 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundFrame/ParallaxBackground11"]
+
+[node name="Sprite" type="Sprite" parent="BackgroundFrame/ParallaxBackground11/ParallaxLayer"]
+position = Vector2( 2748.13, 1024 )
 scale = Vector2( 0.322399, 0.322399 )
 texture = ExtResource( 1 )
 centered = false

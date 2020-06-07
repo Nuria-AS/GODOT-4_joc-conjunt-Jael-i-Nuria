@@ -14,7 +14,7 @@ var enemies_count
 signal formation_defeated
 
 func _ready():
-	target_position = rand_range(200, get_viewport_rect().size.y / 2)
+	target_position = rand_range(200, get_viewport_rect().size.x / 2)
 	left_bound = position.x - 100
 	right_bound = position.x + 100
 	direction = 1 if rand_range(0, 100) > 50 else -1
